@@ -1,5 +1,5 @@
-<h2 align="center">Швейцарский стиль Айдентика для кинофистеваля</h2>
-<h4 align="center">Karlovy Vary International Film Festival</h4>
+<h2 align="center">Швейцарский стиль</h2>
+<h4 align="center">Айдентика для кинофистеваля "Karlovy Vary International Film Festival"</h4>
 
 
 ![image](https://github.com/AnastasiaKedrina/AnastasiaKedrina/assets/113825953/fb2ef60f-9e7e-4040-b10e-1f325a3587d9)
