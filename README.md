@@ -49,15 +49,15 @@
 </div>
 <div align="right">
   
-[![](https://visitcount.itsvg.in/api?id=AnastasiaKedrina&icon=7&color=6)](https://visitcount.itsvg.in)
 </div>
+![P8170927]()
 
 ###
 <br clear="both">
 
 <div align="center">
   <img src="https://github.com/AnastasiaKedrina/python-something/assets/113825953/3a1facc7-ecdb-44b5-a6a8-701c82930898"  />
-  <img src="https://github.com/AnastasiaKedrina/python-something/assets/113825953/89827f72-cba8-4afd-a608-bd1e8b61cde0"  />
+  <img src="https://github.com/AnastasiaKedrina/AnastasiaKedrina/assets/113825953/0e7bf2bc-6bc0-4b12-a8e8-4bdc3abce8a4"  />
   <img src="https://github.com/AnastasiaKedrina/python-something/assets/113825953/f2605bb8-39a1-4d09-a853-2746c52002a0"  />
 </div>
 
