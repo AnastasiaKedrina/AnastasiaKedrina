@@ -1,4 +1,8 @@
 <h2 align="center">Прототип сайта Интернет-магазин умных товаров</h2>
+<h2 align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" height="30" alt="xd logo"  />
+  Сделан в Adobe XD 
+</h2>
 
 https://github.com/AnastasiaKedrina/AnastasiaKedrina/assets/113825953/7eb20a11-5813-46e5-b48b-96a6f80450ac
 
