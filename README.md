@@ -45,6 +45,11 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AnastasiaKedrina&hide_title=false&hide_rank=true&show_icons=true&include_all_commits=true&count_private=true&disable_animations=true&theme=omni&locale=en&hide_border=true" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AnastasiaKedrina&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=omni&hide_border=true" height="150" alt="languages graph"  />
+  
+</div>
+<div align="right">
+  
+[![](https://visitcount.itsvg.in/api?id=AnastasiaKedrina&icon=7&color=6)](https://visitcount.itsvg.in)
 </div>
 
 ###
@@ -65,5 +70,7 @@
 </div>
 
 ###
+
+
 
 
