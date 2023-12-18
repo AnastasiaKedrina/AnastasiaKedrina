@@ -50,7 +50,6 @@
 <div align="right">
   
 </div>
-![P8170927]()
 
 ###
 <br clear="both">
