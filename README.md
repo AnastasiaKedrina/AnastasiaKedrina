@@ -47,8 +47,10 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=AnastasiaKedrina&locale=en&hide_title=true&layout=compact&card_width=320&langs_count=5&theme=omni&hide_border=true" height="150" alt="languages graph"  />
   
 </div>
+
 <div align="right">
   
+[![](https://visitcount.itsvg.in/api?id=AnastasiaKedrina&icon=7&color=6)](https://visitcount.itsvg.in)
 </div>
 
 ###
