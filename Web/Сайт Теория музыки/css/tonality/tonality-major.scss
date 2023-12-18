@@ -1,0 +1,70 @@
+$screen-width: 100vw;
+
+$base-color: #eaa2eb;
+$dark-base: saturate(darken(adjust-hue($base-color, -60deg), 11%), 10%);
+$background-dark: adjust-hue($base-color, -70deg);
+
+.content {
+    .note-piano{
+		.note{
+			font-weight: bold;
+        }
+    }
+    .svg-piano{
+        circle{
+            fill:lighten($background-dark, 5%);
+        }
+    }
+	.halftone, .tone, .arrow{
+        position: relative;
+        font-size: 12pt;
+        width: fit-content;
+        font-weight: bold;
+        color: white;
+        text-shadow: 0 0 2px $dark-base, 0 0 5px $dark-base;
+    }
+    .halftone{
+        bottom: $screen-width/10;
+        right: 20px;
+        transform: rotate(-45deg);
+    }
+    .tone{
+        bottom: $screen-width/12;
+        left: 15px;
+    }
+    .arrow{
+        width: 20px;
+        &:first-of-type{
+            bottom: $screen-width/9;
+            right: -16px;
+            transform: rotate(-95deg);
+        }
+        &:nth-of-type(2){
+            bottom: $screen-width/10;
+            left: 40px;
+            transform: rotate(-45deg);
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .content {
+        .halftone{
+            bottom: $screen-width/4.5;
+        }
+        .tone{
+            bottom: $screen-width/6;
+        }
+        .arrow{
+            width: 20px;
+            &:first-of-type{
+                bottom: $screen-width/4;
+            }
+            &:nth-of-type(2){
+                bottom: $screen-width/5;
+            }
+        }
+    
+    }
+}

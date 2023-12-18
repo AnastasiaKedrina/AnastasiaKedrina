@@ -1,0 +1,92 @@
+body {
+  font-family: Noto Sans, sans-serif;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.head a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #5758c6;
+  font-size: calc(34pt + (15+15 * 0.7) * (100vw / 1920));
+}
+
+.flex-menu {
+  color: #5758c6;
+  font-size: 16pt;
+  letter-spacing: 3px;
+}
+
+.flex-menu:hover {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.list {
+  font-size: 14pt;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+.list a {
+  color: #5758c6;
+}
+
+.flex-main-container span {
+  color: white;
+  font-size: 25pt;
+}
+
+.flex-content {
+  color: #5758c6;
+  font-size: 18pt;
+}
+
+.flex-content .content:first-of-type {
+  font-size: 12pt;
+}
+
+.flex-content .content {
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+}
+
+.text-navigation {
+  font-size: 12pt;
+}
+
+@media (max-width: 1024px) {
+  .flex-menu {
+    font-size: 24pt;
+  }
+  .flex-menu:hover {
+    font-size: 26pt;
+  }
+  .list {
+    font-size: 18pt;
+  }
+  .flex-main-container span {
+    font-size: 30pt;
+  }
+  .flex-content .content:first-of-type {
+    font-size: 17pt;
+  }
+  .button {
+    font-size: 18pt;
+  }
+  .text-navigation {
+    font-size: 16pt;
+  }
+  .test-flex .test {
+    font-size: 10pt;
+  }
+}
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,QADI,CACJ,GAAG,CAAA;EACC,UAAU,EAAE,IAAI;CACnB;;AAEL,MAAM,EAAE,SAAS,EAAE,MAAM;EACrB,AACI,QADI,CACJ,GAAG,CAAA;IACC,UAAU,EAAE,CAAC;GAChB",
+    "sources": [
+        "melody.scss"
+    ],
+    "names": [],
+    "file": "melody.css"
+}

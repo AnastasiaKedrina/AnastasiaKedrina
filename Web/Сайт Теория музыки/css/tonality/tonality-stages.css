@@ -1,0 +1,8 @@
+.content .stages-piano .stage {
+  font-weight: bold;
+}
+
+.content .svg-piano circle:first-of-type, .content .svg-piano circle:nth-of-type(3), .content .svg-piano circle:nth-of-type(5), .content .svg-piano circle:nth-of-type(8) {
+  fill: #b7c1f0;
+}
+/*# sourceMappingURL=tonality-stages.css.map */

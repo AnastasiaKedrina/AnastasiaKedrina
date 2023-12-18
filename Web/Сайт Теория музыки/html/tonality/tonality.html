@@ -1,0 +1,216 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../../css/index.css" type="text/css" rel="stylesheet">
+    <link href="../../css/margins.css" type="text/css" rel="stylesheet">
+    <link href="../../css/fonts.css" type="text/css" rel="stylesheet">
+    <link href="../../css/color.css" type="text/css" rel="stylesheet">
+    
+    <link href="../../css/svg.css" type="text/css" rel="stylesheet">
+    <link href="../../css/tonality/tonality.css" type="text/css" rel="stylesheet"> 
+    
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+    <title>Теория музыки</title>
+</head>
+
+<body>
+    <div class="index-grid">
+        <header class="head">
+            <a href="../index.html"><h2>Теория музыки</h2></a>
+        </header>
+
+        <!-- меню -->
+        <div class="grid-menu">
+            <div class="flex-menu-container">
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_1" value="1"
+                        onclick="radioClick(this)">
+                    <label for="toggle_1" class="menu-btn">Тональность</label>
+                    <div class="list">
+                        <a href="tonality.html">Что такое тональность?</a>
+                        <a href="tonality-stages.html">Ступени тональности</a>
+                        <a href="tonality-major.html">Что такое мажор?</a>
+                        <a href="tonality-minor.html">Что такое минор?</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_2" value="2"
+                        onclick="radioClick(this)">
+                    <label for="toggle_2" class="menu-btn">Аккорд</label>
+                    <div class="list">
+                        <a href="../chord/chord.html">Что такое аккорд?</a>
+                        <a href="../chord/chord-triad.html">Трезвучие</a>
+                        <a href="../chord/chord-sequence.html">Аккорды в тональности</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_3" value="3"
+                        onclick="radioClick(this)">
+                    <label for="toggle_3" class="menu-btn">Мелодия</label>
+                    <div class="list">
+                        <a href="../melody/melody.html">Что такое мелодия?</a>
+                        <a href="../melody/melody-types.html">Виды мелодии</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_4" value="4"
+                        onclick="radioClick(this)">
+                    <label for="toggle_4" class="menu-btn">Ритм</label>
+                    <div class="list">
+                        <a href="../rhythm/rhythm.html">Что такое ритм?</a>
+                        <a href="../rhythm/rhythm-even.html">Ровный ритм</a>
+                        <a href="../rhythm/rhythm-uneven.html">Неровный ритм</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- основной блок -->
+        <div class="main-grid">
+            <div class="flex-main-container" id="hidden"><span>Что такое тональность?</span>
+                <div class="flex-main">
+                    <div class="flex-content">
+
+                        <div class="content">
+                            <p>Тональность в музыке это определенный набор нот, которые будут использоваться в песне,
+                                также как палитра цветов у художника.
+                                Все ноты в тональности связаны друг с другом. </p>
+                            <p>Тональность строится от одной ноты, которая становится основной.
+                                Относительно нее располагаются ноты на определенных расстояниях (интервалах). </p>
+                            <p>Например, тональность До-мажор это белые клавиши подряд от "До" до "До"</p>
+                        </div>
+
+                        <div class="content">
+                            <div class="svg-piano">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none"
+                                    viewBox="0 0 180 130">
+
+                                    <rect class="svg-white-key" x="0" y="0" rx="5" ry="5"/>
+                                    <rect class="svg-white-key" x="12.5%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="25%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="37.5%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="50%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="62.5%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="75%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-white-key" x="87.5%" y="0" rx="5" ry="5" />
+
+                                    <!--<rect class="svg-black-key" x="-4%" y="0" rx="5" ry="5"/> -->
+                                    <rect class="svg-black-key" x="8.5%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-black-key" x="21%" y="0" rx="5" ry="5" />
+                                    <!-- <rect class="svg-black-key" x="33.5%" y="0" rx="5" ry="5"/> -->
+                                    <rect class="svg-black-key" x="46%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-black-key" x="58.5%" y="0" rx="5" ry="5" />
+                                    <rect class="svg-black-key" x="71%" y="0" rx="5" ry="5" />
+                                    <!-- <rect class="svg-black-key" x="83.5%" y="0" rx="5" ry="5"/> -->
+                                    <rect class="svg-black-key" x="96%" y="0" rx="5" ry="5" />
+
+                                    <circle class="svg-circle" cx="6.25%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="18.75%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="31.25%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="43.75%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="56.25%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="68.75%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="81.25%" cy="82.5%" r="6%"/>
+                                    <circle class="svg-circle" cx="93.75%" cy="82.5%" r="6%"/>
+
+                                    <rect class="svg-line" x="0" y="0" />
+                                </svg>
+                            </div>
+                            
+                            <div class="note-piano">
+                                <div class="note">До</div>
+                                <div class="note">Ре</div>
+                                <div class="note">Ми</div>
+                                <div class="note">Фа</div>
+                                <div class="note">Соль</div>
+                                <div class="note">Ля</div>
+                                <div class="note">Си</div>
+                                <div class="note">До</div>
+                            </div>
+                            <div class="stages-piano">
+                                <div class="stage">I</div>
+                                <div class="stage">II</div>
+                                <div class="stage">III</div>
+                                <div class="stage">IV</div>
+                                <div class="stage">V</div>
+                                <div class="stage">VI</div>
+                                <div class="stage">VII</div>
+                                <div class="stage">VIII</div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- кнопки -->
+                <div class="flex-button">
+                    <a href="../index.html" class="button" id="button_1">Назад</a>
+                    <a href="tonality-stages.html" class="button" id="button_2">Далее</a>
+                </div>
+                <div class="flex-navigation">
+                    <div class="text-navigation">
+                        <i>Зачем знать теорию музыки?</i>
+                    </div>
+                    <div class="text-navigation">
+                        <i>Ступени тональности</i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- колонки -->
+            <!-- <div class="test-flex">
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                </div>   -->
+
+        </div>
+
+        <!-- подвал -->
+        <footer>
+            <div class="footer-flex">
+
+                <div class="footer-license">
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.ru" target="_blank">
+                        <img src="../../image/footer/license.png" alt="Картинка не загрузилась :(">
+                    </a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://vk.com/nastyakedrina" target="_blank">
+                        <img src="../../image/footer/vk.png" alt="вк">
+                    </a>
+                    <a href="https://t.me/AnastasiaKedrina" target="_blank">
+                        <img src="../../image/footer/tg.png" alt="телеграм">
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="../../js/script-radio-button.js"></script>
+    <script src="../../js/script-animation.js"></script>
+    <script src="../../js/script-click.js"></script>
+</body>
+
+</html>

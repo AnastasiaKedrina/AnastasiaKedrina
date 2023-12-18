@@ -1,0 +1,158 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="../../css/index.css" type="text/css" rel="stylesheet">
+    <link href="../../css/margins.css" type="text/css" rel="stylesheet">
+    <link href="../../css/fonts.css" type="text/css" rel="stylesheet">
+    <link href="../../css/color.css" type="text/css" rel="stylesheet">
+
+    <link href="../../css/svg.css" type="text/css" rel="stylesheet">
+    <link href="../../css/melody/melody-types.css" type="text/css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+    <title>Теория музыки</title>
+</head>
+
+<body>
+    <div class="index-grid">
+        <header class="head">
+            <a href="../index.html"><h2>Теория музыки</h2></a>
+        </header>
+
+        <!-- меню -->
+        <div class="grid-menu">
+            <div class="flex-menu-container">
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_1" value="1"
+                        onclick="radioClick(this)">
+                    <label for="toggle_1" class="menu-btn">Тональность</label>
+                    <div class="list">
+                        <a href="../tonality/tonality.html">Что такое тональность?</a>
+                        <a href="../tonality/tonality-stages.html">Ступени тональности</a>
+                        <a href="../tonality/tonality-major.html">Что такое мажор?</a>
+                        <a href="../tonality/tonality-minor.html">Что такое минор?</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_2" value="2"
+                        onclick="radioClick(this)">
+                    <label for="toggle_2" class="menu-btn">Аккорд</label>
+                    <div class="list">
+                        <a href="../chord/chord.html">Что такое аккорд?</a>
+                        <a href="../chord/chord-triad.html">Трезвучие</a>
+                        <a href="../chord/chord-sequence.html">Аккорды в тональности</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_3" value="3"
+                        onclick="radioClick(this)">
+                    <label for="toggle_3" class="menu-btn">Мелодия</label>
+                    <div class="list">
+                        <a href="../melody/melody.html">Что такое мелодия?</a>
+                        <a href="../melody/melody-types.html">Виды мелодии</a>
+                    </div>
+                </div>
+
+                <div class="flex-menu">
+                    <input type="radio" name="menu" class="menu-toggle" id="toggle_4" value="4"
+                        onclick="radioClick(this)">
+                    <label for="toggle_4" class="menu-btn">Ритм</label>
+                    <div class="list">
+                        <a href="rhythm.html">Что такое ритм?</a>
+                        <a href="rhythm-even.html">Ровный ритм</a>
+                        <a href="rhythm-uneven.html">Неровный ритм</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- основной блок -->
+        <div class="main-grid">
+            <div class="flex-main-container" id="hidden"><span>Что такое ритм?</span>
+                <div class="flex-main">
+                    <div class="flex-content">
+
+                        <div class="content">
+                            <p><b>Ритм</b> – это чередование звуков и пауз разной продолжительности.</p>
+                            <p><b>Пульс</b> в музыке – это равномерные одинаковые удары. Эти удары могут быть быстрыми, могут быть и медленными.
+                                Именно пульс мы чувствуюем внутри себя, ровно кивая под музыку. </p>
+
+                            <p>Удары пульса всегда равномерны, но не однородны. Есть удары сильные, а есть слабые. 
+                                Это явление можно сравнить с ударением в словах: есть слоги ударные и есть безударные. </p>
+                                
+                            <img src="../../image/rhythm/rhythm.jpg" alt="пример нотной строчки">
+
+                        
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- кнопки -->
+                <div class="flex-button">
+                    <a href="../melody/melody-types.html" class="button" id="button_1">Назад</a>
+                    <a href="rhythm-even.html" class="button" id="button_2">Далее</a>
+                </div>
+                <div class="flex-navigation">
+                    <div class="text-navigation">
+                        <i>Виды мелодии</i>
+                    </div>
+                    <div class="text-navigation">
+                        <i>Ровный ритм</i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- колонки -->
+            <!-- <div class="test-flex">
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                    <div class="test">column</div>
+                </div>   -->
+
+        </div>
+
+        <!-- подвал -->
+        <footer>
+            <div class="footer-flex">
+
+                <div class="footer-license">
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.ru" target="_blank">
+                        <img src="../../image/footer/license.png" alt="лицензия">
+                    </a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://vk.com/nastyakedrina" target="_blank">
+                        <img src="../../image/footer/vk.png" alt="вк">
+                    </a>
+                    <a href="https://t.me/AnastasiaKedrina" target="_blank">
+                        <img src="../../image/footer/tg.png" alt="телеграм">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../../js/script-radio-button.js"></script>
+    <script src="../../js/script-animation.js"></script>
+    <script src="../../js/script-click.js"></script>
+</body>
+
+</html>

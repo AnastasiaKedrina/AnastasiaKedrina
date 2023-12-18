@@ -1,0 +1,8 @@
+.content .note-piano .note {
+  font-weight: bold;
+}
+
+.content .svg-piano circle:first-of-type, .content .svg-piano circle:nth-of-type(3), .content .svg-piano circle:nth-of-type(5) {
+  fill: #b7c1f0;
+}
+/*# sourceMappingURL=chord.css.map */

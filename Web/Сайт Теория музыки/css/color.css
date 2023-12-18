@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(45deg, #a2afeb, #f5d4f6, #f9e5f9);
+  background-attachment: fixed;
+}
+
+.grid-menu {
+  background-color: #f9e5f9;
+  -webkit-box-shadow: 0 0 5px #788be2, 0 0 20px #f9e5f9;
+          box-shadow: 0 0 5px #788be2, 0 0 20px #f9e5f9;
+}
+
+.flex-menu {
+  border-radius: 20px 20px 0 0;
+}
+
+.flex-menu:hover {
+  -webkit-box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+          box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+}
+
+.flex-menu:first-child .menu-btn {
+  border-left: 2px solid #e5c4f6;
+}
+
+.flex-menu .menu-btn {
+  border-right: 2px solid #e5c4f6;
+}
+
+.flex-menu .list {
+  background-color: rgba(249, 229, 249, 0.9);
+  -webkit-box-shadow: 0 0 15px #f9e5f9;
+          box-shadow: 0 0 15px #f9e5f9;
+  border-radius: 0 0 20px 20px;
+}
+
+.flex-menu .list a {
+  text-decoration: none;
+  border-radius: 20px;
+  border-bottom: 2px solid #e5c4f6;
+}
+
+.flex-menu .list a:hover {
+  -webkit-box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white, 0 0 15px white;
+          box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white, 0 0 15px white;
+  background-color: #f7ddf8;
+}
+
+.flex-main-container {
+  background: linear-gradient(45deg, #f5d4f6, #eaa2eb 35%, #6b6dea);
+  -webkit-box-shadow: -1px -1px 2px #f9e5f9, 2px 2px 4px #5557e6;
+          box-shadow: -1px -1px 2px #f9e5f9, 2px 2px 4px #5557e6;
+  border-radius: 50px;
+}
+
+.flex-main {
+  background-color: white;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #6b6dea;
+          box-shadow: 2px 2px 4px #6b6dea;
+}
+
+.button {
+  background: linear-gradient(-155deg, #f5d4f6, #eaa2eb 35%, #6b6dea);
+  border-radius: 20px;
+  border: none;
+  -webkit-box-shadow: -2px -2px 2px #f9e5f9, 2px 2px 4px #6b6dea;
+          box-shadow: -2px -2px 2px #f9e5f9, 2px 2px 4px #6b6dea;
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #f5d4f6, #eaa2eb 35%, #6b6dea);
+  -webkit-box-shadow: inset -2px -2px 4px #f9e5f9, inset 2px 2px 4px #6b6dea;
+          box-shadow: inset -2px -2px 4px #f9e5f9, inset 2px 2px 4px #6b6dea;
+}
+
+.text-navigation {
+  background: rgba(249, 229, 249, 0.9);
+  -webkit-box-shadow: 0 0 5px #f9e5f9;
+          box-shadow: 0 0 5px #f9e5f9;
+  border-radius: 20px;
+  border: none;
+}
+
+.text-navigation i {
+  color: #6b6dea;
+}
+
+footer {
+  background: -webkit-gradient(linear, left bottom, left top, from(#a2afeb), color-stop(25%, #f9e5f9));
+  background: linear-gradient(0deg, #a2afeb, #f9e5f9 25%);
+  -webkit-box-shadow: 0 0 10px #f9e5f9;
+          box-shadow: 0 0 10px #f9e5f9;
+}
+
+.footer-license,
+.footer-social {
+  border-right: 2px solid #e5c4f6;
+}
+
+@media (max-width: 1024px) {
+  .flex-menu {
+    border-bottom: 2px solid #e5c4f6;
+    border-radius: 20px;
+  }
+  .flex-menu .menu-btn {
+    border: none;
+  }
+  .flex-menu:first-child .menu-btn {
+    border-left: none;
+  }
+  .flex-menu .list {
+    background-color: rgba(255, 250, 255, 0.8);
+    -webkit-box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+            box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+    border-radius: 0 20px 20px 20px;
+  }
+  .flex-menu .list a:hover {
+    background-color: #fbeefb;
+  }
+  #toggle_1:checked ~ .flex-main {
+    -webkit-box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+            box-shadow: 0 0 5px #a2afeb, inset 0 0 10px white;
+  }
+}
+/*# sourceMappingURL=color.css.map */

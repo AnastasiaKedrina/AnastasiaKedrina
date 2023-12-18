@@ -1,0 +1,79 @@
+.content .svg-piano {
+  position: relative;
+  right: 19px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.content .svg-piano .svg-line {
+  width: 100%;
+  height: 4px;
+  fill: #6b6dea;
+}
+
+.content .svg-piano .svg-white-key {
+  width: 12.5%;
+  height: 99.5%;
+  fill: #f9e5f9;
+  stroke-width: 0.8px;
+  stroke: #6b6dea;
+}
+
+.content .svg-piano .svg-black-key {
+  width: 8%;
+  height: 60%;
+  fill: black;
+}
+
+.content .svg-piano circle {
+  fill: #f9e5f9;
+  -webkit-filter: drop-shadow(0 0 2px #b7c1f0);
+          filter: drop-shadow(0 0 2px #b7c1f0);
+}
+
+.content .note-piano, .content .stages-piano {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  height: 0;
+}
+
+.content .note-piano .note {
+  width: 12.5%;
+  position: relative;
+  right: 9px;
+  bottom: 4.54545vw;
+  font-size: 1vw;
+  text-shadow: 1px 1px 1px #a2afeb;
+}
+
+.content .note-piano .note:nth-child(5) {
+  right: 13px;
+}
+
+.content .stages-piano .stage {
+  width: 12.5%;
+  position: relative;
+  right: 9px;
+  bottom: 3.33333vw;
+  font-size: 0.83333vw;
+}
+
+@media (max-width: 1024px) {
+  .content .note-piano .note {
+    bottom: 9.09091vw;
+    font-size: 1.81818vw;
+  }
+  .content .note-piano .note:nth-child(5) {
+    right: 9px;
+  }
+  .content .stages-piano .stage {
+    bottom: 6.89655vw;
+    font-size: 1.66667vw;
+  }
+}
+/*# sourceMappingURL=svg.css.map */

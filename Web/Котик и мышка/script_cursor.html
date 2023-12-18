@@ -1,0 +1,49 @@
+<html>
+     <head>
+        <meta charset="UTF-8">
+        <link href="script_cursor.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="mouse"><img src="img/mouse.png"></div>
+        <div id="cat"><img src="img/cat.gif"></div>
+        <script>
+            img =document.getElementById("cat");
+            cursor =document.getElementById("mouse");
+            img.style.left = 300+"px";
+            img.style.top = 300+"px";
+
+            document.body.onmousemove = function(e){
+                step=5;
+                cX=parseInt(img.style.left.slice(0, -2))-(e.pageX -100);
+                cY=parseInt(img.style.top.slice(0, -2))-(e.pageY -100);
+                if (Math.abs(cX)>Math.abs(cY)){
+                    pX=step;
+                    pY=Math.abs(cY/cX)*step;
+                }
+                if (Math.abs(cX)<=Math.abs(cY)){
+                    pY=step;
+                    pX=Math.abs(cX/cY)*step;
+                }
+                if (img.style.left.slice(0, -2)<(e.pageX -100)){
+                    img.style.left = parseInt(img.style.left.slice(0, -2)) + pX + "px";
+                }
+                if (img.style.left.slice(0, -2)>(e.pageX -100)){
+                    img.style.left = parseInt(img.style.left.slice(0, -2)) - pX + "px";
+                }
+                if (img.style.top.slice(0, -2)<(e.pageY -100)){
+                    img.style.top = parseInt(img.style.top.slice(0, -2)) + pY + "px";
+                }
+                if (img.style.top.slice(0, -2)>(e.pageY -100)){
+                    img.style.top = parseInt(img.style.top.slice(0, -2)) - pY + "px";
+                }
+
+                cursor.style.left = e.pageX-50+"px";
+                cursor.style.top = e.pageY-50+"px";
+                
+            }
+
+
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKA,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,UAAuC;EAC9C,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "melody-types.scss"
+    ],
+    "names": [],
+    "file": "melody-types.css"
+}

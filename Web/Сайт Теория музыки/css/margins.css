@@ -1,0 +1,147 @@
+.test-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  height: 30px;
+  margin: auto;
+}
+
+.test-flex .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  font-size: 12pt;
+  width: 5.71429vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.index-grid {
+  margin: 0;
+}
+
+.flex-menu-container {
+  margin: auto;
+}
+
+.flex-menu .menu-btn {
+  margin-top: 15px;
+}
+
+.flex-main-container {
+  margin: 30px auto;
+}
+
+.flex-main-container span {
+  margin: 20px 6.75325vw;
+}
+
+.flex-main {
+  margin: auto 6.75325vw;
+}
+
+.flex-content {
+  margin: 10px auto;
+}
+
+.content {
+  margin: 10px 0;
+}
+
+.content img {
+  margin: 0;
+}
+
+.content p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.content .svg-piano,
+.content svg {
+  margin: 0;
+}
+
+.flex-button,
+.flex-navigation {
+  margin: auto;
+}
+
+.button,
+.text-navigation {
+  margin: 0;
+}
+
+.button {
+  margin-top: 20px;
+  padding-top: 6.66667px;
+}
+
+.text-navigation {
+  padding: 45px 0 5px 0;
+}
+
+.text-navigation i {
+  margin: 0 5px;
+}
+
+.footer-flex {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.footer-license img,
+.footer-social img {
+  margin-right: 7px;
+}
+
+.footer-license img:first-of-type,
+.footer-social img:first-of-type {
+  margin-left: 7px;
+}
+
+.footer-license img {
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.footer-social img {
+  margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    margin: 10px auto;
+  }
+  .list a {
+    padding: 10px 5px;
+  }
+  .flex-menu .menu-btn {
+    margin-top: 10px;
+  }
+  .button {
+    padding-bottom: 10px;
+  }
+  .footer-flex {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=margins.css.map */

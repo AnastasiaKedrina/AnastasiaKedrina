@@ -1,0 +1,9 @@
+$number-columns: 12;
+$screen-width: 100vw;
+$column-width: $screen-width * 0.8/14;
+$between-column-width: ($screen-width * 0.8- ($column-width * $number-columns))/ ($number-columns - 1);
+
+.content {
+    width: $column-width*8+$between-column-width*7;
+    margin: 20px auto;
+}

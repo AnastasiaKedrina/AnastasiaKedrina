@@ -1,0 +1,60 @@
+.content .note-piano .note {
+  font-weight: bold;
+}
+
+.content .Eb, .content .Ab, .content .Bb {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1vw;
+  text-align: center;
+  font-weight: bold;
+  color: #f9e5f9;
+}
+
+.content .Eb {
+  bottom: 11.11111vw;
+  left: 3.84615vw;
+}
+
+.content .Ab {
+  bottom: 12.5vw;
+  left: 13.69863vw;
+}
+
+.content .Bb {
+  bottom: 13.88889vw;
+  left: 16.94915vw;
+}
+
+.content .svg-piano circle {
+  fill: #a2afeb;
+}
+
+.content .svg-piano circle:nth-of-type(3), .content .svg-piano circle:nth-of-type(6), .content .svg-piano circle:nth-of-type(7) {
+  fill: #4457b0;
+  -webkit-filter: drop-shadow(0 0 2px #4457b0);
+          filter: drop-shadow(0 0 2px #4457b0);
+}
+
+@media (max-width: 1024px) {
+  .content .Eb, .content .Ab, .content .Bb {
+    font-size: 1.66667vw;
+    text-align: center;
+    font-weight: bold;
+  }
+  .content .Eb {
+    bottom: 22.22222vw;
+    left: 8.33333vw;
+  }
+  .content .Ab {
+    bottom: 24.39024vw;
+    left: 28.57143vw;
+  }
+  .content .Bb {
+    bottom: 26.66667vw;
+    left: 35.08772vw;
+  }
+}
+/*# sourceMappingURL=tonality-minor.css.map */

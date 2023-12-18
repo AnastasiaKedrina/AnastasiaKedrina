@@ -1,0 +1,21 @@
+.content .note-piano .note {
+  font-weight: bold;
+}
+
+.content .svg-piano circle {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.content .svg-piano circle:first-of-type, .content .svg-piano circle:nth-of-type(4), .content .svg-piano circle:nth-of-type(5) {
+  fill: #b7c1f0;
+  -webkit-filter: drop-shadow(0 0 2px #b7c1f0);
+          filter: drop-shadow(0 0 2px #b7c1f0);
+}
+
+.content .svg-piano circle:nth-of-type(6), .content .svg-piano circle:nth-of-type(3) {
+  fill: #f3ccf4;
+  -webkit-filter: drop-shadow(0 0 2px #efb7f0);
+          filter: drop-shadow(0 0 2px #efb7f0);
+}
+/*# sourceMappingURL=chord-sequence.css.map */

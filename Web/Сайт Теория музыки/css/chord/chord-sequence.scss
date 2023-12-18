@@ -1,0 +1,25 @@
+$base-color: #eaa2eb;
+$background-dark: adjust-hue($base-color, -70deg);
+
+.content {
+    .note-piano{
+		.note{
+			font-weight: bold;
+        }
+    }
+    .svg-piano{
+        circle{
+			filter: none;
+        }
+        circle:first-of-type, circle:nth-of-type(4), circle:nth-of-type(5){
+            fill:lighten($background-dark, 5%);
+			filter: drop-shadow( 0 0 2px lighten($background-dark, 5%));
+        }
+        circle:nth-of-type(6), circle:nth-of-type(3){
+            fill:lighten($base-color, 10%);
+			filter: drop-shadow( 0 0 2px lighten($base-color, 5%));
+        }
+    }
+	
+
+}

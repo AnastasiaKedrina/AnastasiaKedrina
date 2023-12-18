@@ -1,0 +1,67 @@
+.content .note-piano .note {
+  font-weight: bold;
+}
+
+.content .svg-piano circle {
+  fill: #b7c1f0;
+}
+
+.content .halftone, .content .tone, .content .arrow {
+  position: relative;
+  font-size: 12pt;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 2px #6b6dea, 0 0 5px #6b6dea;
+}
+
+.content .halftone {
+  bottom: 10vw;
+  right: 20px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.content .tone {
+  bottom: 8.33333vw;
+  left: 15px;
+}
+
+.content .arrow {
+  width: 20px;
+}
+
+.content .arrow:first-of-type {
+  bottom: 11.11111vw;
+  right: -16px;
+  -webkit-transform: rotate(-95deg);
+          transform: rotate(-95deg);
+}
+
+.content .arrow:nth-of-type(2) {
+  bottom: 10vw;
+  left: 40px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+@media (max-width: 1024px) {
+  .content .halftone {
+    bottom: 22.22222vw;
+  }
+  .content .tone {
+    bottom: 16.66667vw;
+  }
+  .content .arrow {
+    width: 20px;
+  }
+  .content .arrow:first-of-type {
+    bottom: 25vw;
+  }
+  .content .arrow:nth-of-type(2) {
+    bottom: 20vw;
+  }
+}
+/*# sourceMappingURL=tonality-major.css.map */

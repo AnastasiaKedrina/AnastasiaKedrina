@@ -1,0 +1,123 @@
+$base-color: #eaa2eb;
+$light-base: lighten($base-color, 12%);
+$dark-base: saturate(darken(adjust-hue($base-color, -60deg), 11%), 10%);
+$background-light: lighten($base-color, 16%);
+$background-dark: adjust-hue($base-color, -70deg);
+$light-gradient: linear-gradient(45deg, $background-dark, lighten($base-color, 12%), $background-light);
+$dark-gradient: linear-gradient(45deg, $light-base, $base-color 35%, $dark-base);
+$dark-reverse-gradient: linear-gradient(-155deg, $light-base, $base-color 35%, $dark-base);
+
+$transparent-pink: rgba(249, 229, 249, 0.9);
+$transparent-white: rgba(255, 250, 255, 0.8);
+
+$border-color: adjust-hue(lighten($dark-base, 20%), 40deg);
+$border-menu: 2px solid $border-color;
+$shadow-menu: 0 0 5px $background-dark, inset 0 0 10px white;
+
+body {
+	background: $light-gradient;
+	background-attachment: fixed;
+}
+
+//меню
+.grid-menu {
+	background-color: $background-light;
+	box-shadow: 0 0 5px darken($background-dark, 10%), 0 0 20px $background-light;
+}
+.flex-menu {
+	border-radius: 20px 20px 0 0;
+	&:hover {
+		box-shadow: $shadow-menu;
+	}
+
+	&:first-child .menu-btn {
+		border-left: $border-menu;
+	}
+	.menu-btn {
+		border-right: $border-menu;
+	}
+	.list {
+		background-color: $transparent-pink;
+		box-shadow: 0 0 15px $background-light;
+		border-radius: 0 0 20px 20px;
+
+		& a {
+			text-decoration: none;
+			border-radius: 20px;
+			border-bottom: $border-menu;
+
+			&:hover {
+				box-shadow: $shadow-menu, 0 0 15px white;
+				background-color: darken($background-light, 2%);
+			}
+		}
+	}
+}
+
+//основной блок
+.flex-main-container {
+	background: $dark-gradient;
+	box-shadow: -1px -1px 2px $background-light, 2px 2px 4px darken($dark-base, 5%);
+	border-radius: 50px;
+}
+.flex-main {
+	background-color: white;
+	border-radius: 30px;
+	box-shadow: 2px 2px 4px $dark-base;
+}
+
+.button {
+	background: $dark-reverse-gradient;
+	border-radius: 20px;
+	border: none;
+	box-shadow: -2px -2px 2px $background-light, 2px 2px 4px $dark-base;
+	&:hover {
+		background: $dark-gradient;
+		box-shadow: inset -2px -2px 4px $background-light, inset 2px 2px 4px $dark-base;
+	}
+}
+.text-navigation {
+	background: $transparent-pink;
+	box-shadow: 0 0 5px $background-light;
+	border-radius: 20px;
+	border: none;
+	i {
+		color: $dark-base;
+	}
+}
+
+//подвал
+footer {
+	background: linear-gradient(0deg, $background-dark, $background-light 25%);
+	box-shadow: 0 0 10px $background-light;
+}
+.footer-license,
+.footer-social {
+	border-right: $border-menu;
+}
+
+@media (max-width: 1024px) {
+	//меню
+	.flex-menu {
+		border-bottom: $border-menu;
+		border-radius: 20px;
+
+		.menu-btn {
+			border: none;
+		}
+		&:first-child .menu-btn {
+			border-left: none;
+		}
+		.list {
+			background-color: $transparent-white;
+			box-shadow: $shadow-menu;
+			border-radius: 0 20px 20px 20px;
+			a:hover {
+				background-color: lighten($background-light, 2%);
+			}
+		}
+	}
+	#toggle_1:checked ~ .flex-main {
+		box-shadow: $shadow-menu;
+	}
+}

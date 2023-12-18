@@ -1,0 +1,17 @@
+$base-color: #eaa2eb;
+$background-dark: adjust-hue($base-color, -70deg);
+
+.content {
+    .note-piano{
+		.note{
+			font-weight: bold;
+        }
+    }
+    .svg-piano{
+        circle{
+            fill:lighten($background-dark, 5%);
+        }
+    }
+	
+
+}
