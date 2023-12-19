@@ -1,4 +1,4 @@
-<h2 align="center">Здесь представлены работы в TouchDesigner</h2>
+<h2 align="center">Здесь представлены работы, сделанные в TouchDesigner</h2>
 
 https://github.com/AnastasiaKedrina/AnastasiaKedrina/assets/113825953/926f9722-0a45-4877-9f76-de118c237b4a
 
