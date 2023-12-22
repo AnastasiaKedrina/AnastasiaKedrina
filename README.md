@@ -28,6 +28,8 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=xd" height="30" alt="xd logo"  />
   <img width="12" />
+  <img src="https://github.com/AnastasiaKedrina/AnastasiaKedrina/assets/113825953/f95e3675-75b3-4dae-ba29-7fefe180ddca" height="30" alt="id logo"  />
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="30" alt="figma logo"  />
   <img width="12" />
   <img src="https://cdn.simpleicons.org/qt/41CD52" height="30" alt="qt logo"  />
